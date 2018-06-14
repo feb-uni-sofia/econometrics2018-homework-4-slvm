@@ -56,7 +56,7 @@ populationMean <- mean(houseWork$hours)
 
 testStatistic <- sqrt(11016) * (muF - populationMean) / 0.3186
 
-pt(testStatistic, df = 11016)
+pt(testStatistic, df = 11014)
 
 ## h)
 
